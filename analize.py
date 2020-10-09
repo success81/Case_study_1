@@ -73,6 +73,7 @@ ax[1,1].bar(ClnData['tag length'],ClnData['views'])
 
 ax = ax.flatten()
 fig.tight_layout()
+fig.savefig('Figure')
 plt.show()
 
 
